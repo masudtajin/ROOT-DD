@@ -1,0 +1,16 @@
+.container{
+    max-width: 1170px;
+}
+body{
+    font-family: var(--font-1);
+    color: var(--color-2);
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    font-family: var(--font-2);
+    display: inline-block;
+    color: var(--color-2);
+}

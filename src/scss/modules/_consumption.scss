@@ -1,0 +1,22 @@
+.consumption{
+    background-color: var(--color-3);
+    padding: 38px 40px;
+    .consumption-area{
+        height: 100vh;
+        max-height: 712px;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .consumption-item{
+        p{
+            padding: 24px 12px 42px;
+        }
+    }
+}

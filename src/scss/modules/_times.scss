@@ -1,0 +1,142 @@
+.times{
+    padding:244px 0 58px;
+    margin-top: -190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    .times-content{
+        h4 {
+            color: var(--color-5);
+            margin-bottom: 8px;
+        }
+        p{
+            color: var(--color-5);
+            margin-bottom: 32px;
+        }
+    }
+    .button-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn-calender{
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 600;
+            color: var(--color-5);
+           
+            &:before{
+                border-radius: 8px;
+                background-color:var(--color-2);
+               
+            }
+        }
+       
+        .btn {  
+            i.bi.bi-calendar-range {
+               padding-right: 10px;
+            }
+            i.bi.bi-chevron-down {
+               font-weight: 700;
+               padding-left: 10px;
+               font-size: 12px;
+            }
+        }
+    }
+    .event-area{
+        .btn {
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 600;
+            color: var(--color-5);  
+        }
+        .bg {
+            &:before{
+                border-radius: 0px;
+                background-color: var(--color-2);
+                border: 0; 
+            }
+        }
+    }
+    h5{
+        color: var(--color-5);
+        margin: 48px 0 20px 0;
+        a {
+            font-weight: 400;
+            color: var(--color-5);
+        }
+    }
+    .event{
+        background-color: var(--color-2);
+        position: relative;
+        padding-bottom: 24px;
+        .tickets{
+            img {
+                margin: 24px 24px 0px 0px;
+            }
+            .text-area{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .p-sm {
+                    color: var(--color-5);
+                    margin-bottom: 40px;
+                    font-weight: 700;
+                    a {
+                        color: var(--color-5);
+                        font-weight: 400;
+                    }
+                }
+                span{
+                    color: var(--color-5);
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 1px;
+                    font-weight: 700;
+                    margin-bottom: 40px;
+                    display: block;
+                   
+                }
+                h6{
+                    color: var(--color-5);
+                    padding: 0px 100px 50px 100px;
+                }
+                .btn{
+                    &:before{
+                        border-radius: 0px;
+                        background-color: var(--color-4);
+                        border: 0; 
+                    }
+                }
+            }
+            
+        }
+        span {
+            color: var(--color-5);
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            padding: 24px 0px 0px 24px;
+            display: block;
+            position: absolute;
+        }
+        a.btn.bgc {
+            padding: 8px 7px;  
+            position: absolute;
+            bottom: 20px;
+            left: 24px;
+            &:before{
+                border-radius: 8px;
+                background-color: rgba(var( --color-4-hex), .1) !important;
+                border: 0; 
+            }    
+        }
+    }
+    .text-center{
+        a.end-btn {
+            margin: 64px 0px 0px;
+        }
+    }
+}
